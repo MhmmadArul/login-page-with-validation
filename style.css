@@ -1,0 +1,49 @@
+body {
+    background-color: #eee;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-login {
+    background-color:#fff;
+    width: 400px;
+    padding: 60px 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-header h5{
+    font-size: 1.5em;
+}
+
+.login-input input {
+    width: 300px;
+}
+
+.alert {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.alert-success {
+    display: none;
+}
+
+.alert-success svg {
+    margin-top: -3px;
+}
+
+.alert-danger {
+    display: none;
+}
+
